@@ -10,8 +10,8 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="public/css/styles.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
@@ -75,16 +75,13 @@
                     <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
-                    <p>
+                    <p></p>
 					 <ul>
 					 <li>
 							Computer Science Graduate at University of Toronto
                      </li>
                      <li>
-                            Kotlin Android Developer and Data Analyst
-                     </li>
-					 <li>
-							Former Vice President at University of Toronto Kendo Club
+                            Kotlin Android Developer and Machine Learning Enthusiast
                      </li>
 					 <li>
 							eSports Enthusiast and former Captain of UofT Dota2 Team 
@@ -100,35 +97,65 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-                <div data-date="Feb 2018 – Current">
-                        <h3>FOOi, <a herf="fooi.ca">fooi.ca</a></h3>
-                        <h4>Software Developer + Member</h4>
+                <div data-date="Mar 2019 – Current">
+                        <h3>Nanoleaf</h3>
+                        <h4>Android Developer</h4>
                         <ul>
                             <li><p>
-                                Developing the Android App for FOOi.  
+                                Leading the Android Development of the Nanoleaf App.
                             </p></li>    
                         </ul>
-                    </div>
-
-                <div data-date="Jan 2018 – Current">
-                        <h3>Team Vivi / UofT Innovation Lab</h3>
-                        <h4>Software Developer + Member</h4>
+                </div>
+                <div data-date="Feb 2018 – Feb 2019">
+                        <h3>FOOi</h3>
+                        <h4>Android Developer</h4>
                         <ul>
                             <li><p>
-                                Working closely with SOCAN to solve current music industry problems with AI and machine learning techniques as part of a student startup initiative mentored by the Lab’s startup incubator.
+                                Lead and worked closely with the Dev team to develop the Android app for FOOi as the
+                                lead Android developer, designing the whole app structure and conducted code reviews
+                                with fast-paced development cycles under high-stress environment.
+                            </p></li>    
+                            <li><p>
+                                Worked closely with entire team to iterate on designs and key components of the app.
                             </p></li>
                             <li><p>
-                                Currently in a process of establishing a PoC for SOCAN.
-                            </p></li>    
+                                Trained another co-op student and worked with him side-by-side to provide mentorship
+                                and support.
+                            </p></li>
+                            <li><p>
+                                Wrote tests for each iteration and worked closely with the backend team to ensure proper
+                                integration of the APIs, generating test-coverage.
+                            </p></li>
                         </ul>
-                    </div>
+                </div>
+                <div data-date="Jan 2018 – Dec 2018">
+                        <h3>Team Muma / UofT Innovation Lab</h3>
+                        <h4>Software Developer + Member</h4>
+                        <ul>
+                            <li><p>
+                                Worked with a team of 5 to develop a machine learning model that separate human voice
+                                from an audio input.
+                            </p></li>
+                            <li><p>
+                                Designed and built the backend structure for Muma, a service that identifies cover song
+                                music using machine learning model and allows music societies to capture more revenue.
+                            </p></li>
+                            <li><p>
+                                Automated and packaged services into Docker containers and hosted on Microsoft Azure.
+                            </p></li>
+                            <li><p>
+                                Participated and won the Canadian Runner-up for Microsoft Imagine Cup Canadian Finals
+                                2018, and advanced as a Global Finalist.
+                            </p></li>
+                        </ul>
+                </div>
         
             <div data-date="May 2016 – August 2017">
                 <h3>Finastra</h3>
                 <h4>DevOps Developer Co-op</h4>
 				<ul>
                     <li><p>
-					Worked closely with Dev team to implemented cloud environments setup and deployment automation (including disaster recovery) for Barometer application independently. 
+					Worked closely with Dev team to implement cloud environments setup and deployment automation (including disaster recovery) for Barometer application independently. 
 					</p></li>
 					<li><p>
 					Automated and supported continuous software builds and deployments for 5+ projects during development phase, including Dev, QA, UAT and Production (Full, Patch builds).
@@ -143,29 +170,7 @@
 					Interviewed, recruited, and trained two new co-op students to replace my position.
 					</p></li>
 				</ul>
-            </div>
-
-            <div data-date="October 2014 – December 2015">
-                <h3>GOVision</h3>
-                <h4>Marketing Director</h4>
-				<ul>
-					<li><p>
-					Drafted and wrote a 10-page marketing plan proposal and presented to the organization.
-					</p></li>
-					<li><p>
-					Worked in a team of 30 people to execute and carry out the proposed marketing plan.
-					</p></li>
-					<li><p>
-					Doubled the organization’s page views and tripled its number of followers within 6 months on the WeChat platform due to the successful marketing plan.
-					</p></li>
-					<li><p>
-					Maintained the organization website, http://www.govision.net.
-					</p></li>
-					<li><p>
-					Wrote weekly articles for the organization’s WeChat social platform.   
-					</p></li>	
-				</ul>
-            </div>
+            </div>             
         </div>
     </div>
     <!-- End #experience -->
@@ -193,18 +198,82 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
                 <div class="row">
+                     <div class="project shadow-large">
+                        <div class="project-image">
+                                <img width="205" height="184" src="images/fooi_logo_red_1.png" />
+                        </div>
+                            <!-- End .project-image -->
+                        <div class="project-info">
+                                <h3>Nanoleaf</h3>
+                                <p>
+                                    At Nanoleaf, we create smart home products that take ordinary experiences and make them extraordinary.
+                                    We do this by rethinking what is possible, and creating products that can help to improve the way we experience our everyday lives.
+                                    <br/>
+                                    I lead and maintain the Android Development at Nanoleaf.
+                                </p>
+                                <a href="https://nanoleaf.me/">View Products</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+        </div>    
+        <div class="container">
+                <div class="row">
                     <div class="project shadow-large">
                         <div class="project-image">
-                            <img src="images/muma_logo." />
+                            <img width="300" height="180" src="images/muma_logo.jpg" />
                         </div>
                         <!-- End .project-image -->
                         <div class="project-info">
                             <h3>Muma</h3>
                             <p>
-                                Muma is a music matching service that identifies music usage online to capture more revenue for its customers. Muma aims to improve the music industry for music makers and music listeners alike.
-                                Muma won second place in Microsoft Imagine Cup 2018 Canadian Finals.
+                                Muma is a music matching service that identifies music usage online to capture more revenue for its customers. Muma aims to improve the music industry.
+                                <br/>
+                                Muma placed second place in Microsoft Imagine Cup 2018 Canadian Finals, advancing as a Global Finalist.
                         	</p>
-                            <a href="https://imagine.microsoft.com/en-us/Team/eb66f6b4-5037-41bb-a940-f44ceba21aa8">View Project</a>
+                            <a href="https://imagine.microsoft.com/en-us/Team/eb66f6b4-5037-41bb-a940-f44ceba21aa8">View Project Description</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+        </div>
+        <div class="container">
+                <div class="row">
+                     <div class="project shadow-large">
+                        <div class="project-image">
+                                <img width="205" height="184" src="images/fooi_logo_red_1.png" />
+                        </div>
+                            <!-- End .project-image -->
+                        <div class="project-info">
+                                <h3>FOOi</h3>
+                                <p>
+                                    FOOi is a digital wallet that facilitates peer to peer, and peer to business payments, with the ability to give anonymously.
+                                    <br/>
+                                    FOOi was built to facilitate philanthropic payments, and focuses much of its efforts on supporting charities and hospitals.
+                                </p>
+                                <a href="https://www.fooi.ca">View Product Website</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+        </div>    
+            <div class="container">    
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/product_barometer.jpg" />
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Barometer</h3>
+                            <p>
+                                Barometer is a configurable, SaaS platform that provides insight into how well employees understand and apply regulations and policies, empowering you to efficiently pinpoint and address inconsistencies in decision-making.
+                                <br />
+                                Using a library of real-world scenarios to measure understanding, Barometer generates the insight needed to make informed decisions on where to deploy resources to improve loan quality, increase profitability and reduce risk.	</p>
+                            <a href="https://www.finastra.com/solutions/lending/commercial-lending">View Product Link</a>
                         </div>
                         <!-- End .project-info -->
                     </div>
@@ -212,97 +281,60 @@
                 </div>
             </div>
             <div class="container">
-                    <div class="row">
-                        <div class="project shadow-large">
-                            <div class="project-image">
-                                <img src="images/product_barometer.jpg" />
-                            </div>
-                            <!-- End .project-image -->
-                            <div class="project-info">
-                                <h3>Muma</h3>
-                                <p>
-                                    Muma is a music matching service that identifies music usage online to capture more revenue for its customers. Muma aims to improve the music industry for music makers and music listeners alike.
-                                    Muma won second place in Microsoft Imagine Cup 2018 Canadian Finals.
-                                </p>
-                                <a href="https://imagine.microsoft.com/en-us/Team/eb66f6b4-5037-41bb-a940-f44ceba21aa8">View Project</a>
-                            </div>
-                            <!-- End .project-info -->
+                <div class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image">
+                            <img src="images/penguin_rush_logo.png" />
                         </div>
-                        <!-- End .project -->
+                        <!-- End .project-image -->
+                        <div class="project-info">
+                            <h3>Penguin Rush</h3>
+                            <p>
+                                Penguin Rush is a game made by University of Toronto and Centennial College students using the Unity Engine. All assets in the game are made by students and no 3rd-party asset is used.  This game will be showcased on Level Up Showcase 2018.
+                            <br/>	
+                        </p><a href="https://www.youtube.com/watch?v=o4CNXGsTZmU&t=">View Game Trailer</a>
+                        </div>
+                        <!-- End .project-info -->
                     </div>
+                    <!-- End .project -->
                 </div>
-        <div class="container">
-            <div class="row">
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/product_barometer.jpg" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Barometer</h3>
-                        <p>
-                            Barometer is a configurable, SaaS platform that provides insight into how well employees understand and apply regulations and policies, empowering you to efficiently pinpoint and address inconsistencies in decision-making.
-							<br />
-							Using a library of real-world scenarios to measure understanding, Barometer generates the insight needed to make informed decisions on where to deploy resources to improve loan quality, increase profitability and reduce risk.	</p>
-                        <a href="http://www.dh.com/product/barometer">View Project</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
             </div>
-        </div>
-		<div class="container">
-            <div class="row">
-                
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/penguin_rush_logo.png" />
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Penguin Rush</h3>
-                        <p>
-                            Penguin Rush is a game made by University of Toronto and Centennial College students using the Unity Engine. All assets in the game are made by students and no 3rd-party asset is used.  This game will be showcased on Level Up Showcase 2018.
-                        </br>	</p><a href="https://www.youtube.com/watch?v=o4CNXGsTZmU&t=">View Game Trailer</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-            </div>
-        </div>
     </div>
     <!-- End #projects -->
 
     <div id="skills">
-        <h2 class="heading">Languages</h2>
+        <h2 class="heading">Languages/ Technical Skills</h2>
         <ul>
-            <li>Kotlin</li>
+            <li>Kotlin (Android)</li>
             <li>JavaScript</li>
-            <li>Python</li>
+            <li>Python (Django/ Flask)</li>
+            <li>TensorFlow</li>
             <li>Java</li>
 			<li>C/C++</li>
 			<li>C#</li>
             <li>Matlab</li>
             <li>Node.js</li>
+            <li>Dart</li>
             <li>.Net</li>
             <li>MongoDb</li>
             <li>SQL</li>
             <li>PowerShell</li>
-            <li>bash</li>
 		</ul> <br />
 		<h2 class="heading">Tools</h2>
 		<ul>
             <li>Docker</li>
             <li>Android Studio</li>
+            <li>Flutter SDK</li>
             <li>Git</li>
             <li>SVN</li>
-			<li>Unity3D</li>
+            <li>Unity3D</li>
+            <li>Google Cloud</li>
+            <li>Microsoft Azure</li>
+            <li>AWS</li>
             <li>Octopus Deploy</li>
             <li>Team Foundation Server</li>
             <li>Visual Studio Team Services</li>
             <li>Azure Resource Management</li>
-            <li>Microsoft Office</li>
         </ul>
     </div>
     <!-- End #skills -->
@@ -356,7 +388,7 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="public/js/scripts.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
