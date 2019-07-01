@@ -5,11 +5,15 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "keywords": [],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
   "license": "MIT",
   "devDependencies": {
-    "express": "^4.13.4"
+    "express": "^4.16.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
