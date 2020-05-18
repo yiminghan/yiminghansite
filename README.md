@@ -1,6 +1,6 @@
 # YiMing Han Site
 
-This repo contains contents of yiminghan.com
+This repo contains contents of https://yiminghan.com
 
 To see the code used to build the site, visit my Flutter Dev Portfolio repo:
 https://github.com/yiminghan/Flutter-Dev-Portfolio
